@@ -1,7 +1,7 @@
 import java.net.URL;
 import java.net.MalformedURLException;
 
-public class khoi_k_ko_code_ho {
+public class urlpattern {
     public static void main(String[] args) {
         try{
             String relative1 = "javascript.js";
