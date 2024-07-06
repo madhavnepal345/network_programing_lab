@@ -5,6 +5,8 @@ public class SplitingURL {
         try {
             URL url = new URL("https://www.bbc.com/sport/athletics/articles/cd1j3nk2183o");
             System.out.println("Protocol: " + url.getProtocol());
+            System.out.println("User Info: " + url.getUserInfo()==null? "User Not Found":url.getUserInfo());
+
             System.out.println("Authority: " + url.getAuthority());
             System.out.println("Host: " + url.getHost());
             System.out.println("Port: " + url.getPort());
